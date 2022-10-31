@@ -11,5 +11,5 @@ export const useStyles = makeStyles({
         "&:hover": {
             color: "#ECC219"
         }
-    }
+    },
 })

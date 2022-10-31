@@ -20,11 +20,11 @@ export default function Header() {
               <Grid item xs={5} md={4} style={{ marginLeft: "15%"}}>
                 <Typography
                 variant="h3"
-                color="#FFC700" className={righteousFont.className}>
-                    UNIÃO<br />JUVENTUDE E <br />
-                    LIBERDADE
+                color="#FFC700" style={righteousFont.style}>
+                    <strong>UNIÃO<br />JUVENTUDE E <br />
+                    LIBERDADE</strong>
                 </Typography>
-                <Typography variant="p" color="white" className={josefinFont.className}>
+                <Typography color="white" style={josefinFont.style}>
                     Faremos história!
                 </Typography>
                 <div style={{ borderBottom: '1px solid #FFC700', width: "50%", marginLeft: "15%", marginTop: "5px"}}></div>
