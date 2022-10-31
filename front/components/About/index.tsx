@@ -1,5 +1,7 @@
 import { Container, Box, Grid, Typography } from "@mui/material";
 import { League_Spartan } from '@next/font/google'
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const titleFont = League_Spartan({
     weight: '700'
@@ -13,9 +15,18 @@ export default function About() {
                 </Typography>
                 <Grid container spacing={2}>
                     <Grid item xs={6} md={6}>
-                        <Typography color="white">
-                            Teste
-                        </Typography>
+                        <CarouselProvider
+                            naturalSlideWidth={100}
+                            naturalSlideHeight={125}
+                            totalSlides={3}
+                        >
+                            <Slider>
+                                <Slide index={0}>I am the first Slide.</Slide>
+                                <Slide index={1}>I am the second Slide.</Slide>
+                                <Slide index={2}>I am the third Slide.</Slide>
+                            </Slider><ButtonBack>Back</ButtonBack>
+                        <ButtonNext>Next</ButtonNext>
+                        </CarouselProvider>
                     </Grid>
                     <Grid item xs={6} md={6}>
                         <Typography color="white" mt={2}>
