@@ -7,6 +7,11 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Link from 'next/link'
 import { useStyles } from './style';
+import { League_Spartan} from '@next/font/google';
+
+const logoFont = League_Spartan({
+  weight: '700'
+});
 
 export default function NavBar() {
   const classes = useStyles();
@@ -15,12 +20,13 @@ export default function NavBar() {
       <AppBar sx={{ backgroundColor: "black" }} position="static">
         <Toolbar sx={{ marginTop: "10px" }}>
           <Typography
-            variant="h3"
+            variant="h2"
             noWrap
             component="div"
             color="#FFC700"
+            className={logoFont.className}
           >
-            <strong>UJL</strong>
+            UJL
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
