@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import NavBar from '../components/NavBar'
 import About from '../components/About'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return <>
