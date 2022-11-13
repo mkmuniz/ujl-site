@@ -10,7 +10,7 @@ import { League_Spartan } from '@next/font/google';
 import { MenuItem } from '@mui/material'
 
 const logoFont = League_Spartan({
-  weight: '700'
+  weight: '800'
 });
 
 export default function NavBar() {

@@ -1,9 +1,11 @@
 import { Container, Box, Grid, Typography } from "@mui/material";
 import { League_Spartan } from '@next/font/google'
+import Slider from 'react-slick';
 
 const titleFont = League_Spartan({
     weight: '700'
 });
+
 export default function About() {
     return <>
         <Box>
@@ -13,9 +15,8 @@ export default function About() {
                 </Typography>
                 <Grid container spacing={2}>
                     <Grid item xs={6} md={6}>
-                        <div className="carousel">
-                            Testeee
-                        </div>
+                        <Slider>
+                        </Slider>
                     </Grid>
                     <Grid item xs={6} md={6}>
                         <Typography color="white" mt={2}>
