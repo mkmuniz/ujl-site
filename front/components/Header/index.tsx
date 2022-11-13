@@ -4,11 +4,11 @@ import { headerStyles } from './style';
 
 const josefinFont = Josefin_Slab({
     weight: '400',
-}) 
+});
 
 const righteousFont = Righteous({
     weight: '400',
-}) 
+});
 
 export default function Header() {
     const styles = headerStyles();
