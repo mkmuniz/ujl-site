@@ -1,14 +1,16 @@
 import { Container, Box, Grid, Typography } from "@mui/material";
 import { League_Spartan } from '@next/font/google'
 import Slider from 'react-slick';
+import { aboutStyles } from "./style";
 
 const titleFont = League_Spartan({
     weight: '700'
 });
 
 export default function About() {
+    const styles = aboutStyles();
     return <>
-        <Box>
+        <Box className={styles.box}>
             <Container>
                 <Typography variant="h4" style={{ color: "#FFC700" }} textAlign="center" className={titleFont.className}>
                     QUEM SOMOS?

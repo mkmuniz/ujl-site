@@ -7,6 +7,7 @@ export const footerStyles = makeStyles({
         }
     },
     box: {
+        minWidth: "100vh",
         borderBottom: "2px solid #FFC700",
         width: "100%",
         padding: "0px",
