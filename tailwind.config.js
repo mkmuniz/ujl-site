@@ -5,6 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundImage: {
+      'header': "url('/img/ujl.jpg')",
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat'],
+      'league': ['League Spartan'],
+    },
     colors: {
       'standard': '#FFC700',
       'black': '#000000'

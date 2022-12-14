@@ -3,7 +3,7 @@ const NavBar = () => {
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
             <div className="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://ujl.com/" className="flex items-center">
-                    <span className="text-6xl font-semibold whitespace-nowrap text-standard">UJL</span>
+                    <span className="text-6xl font-league font-semibold whitespace-nowrap text-standard">UJL</span>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -21,7 +21,9 @@ const NavBar = () => {
                             <a href="#" className="block px-6 py-2.5 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-standard md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contribua</a>
                         </li>
                         <li>
-                            <a href="#" className="px-6 py-2.5 bg-standard text-black text-xs uppercase rounded">JUNTA-SE</a>
+                            <a href="#" className="px-6 py-2.5 bg-standard text-black font-bold rounded">
+                                <strong>Junte-se</strong>
+                            </a>
                         </li>
                     </ul>
                 </div>
