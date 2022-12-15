@@ -2,7 +2,7 @@
 const Header = () => {
     return <>
         <header>
-            <div className="bg-cover bg-header h-screen h-100">
+            <div className="bg-cover bg-header h-screen">
             </div>
         </header>
     </>

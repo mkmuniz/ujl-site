@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      'header': "url('/img/ujl.jpg')",
+      'header': "url('/img/header.png')",
     },
     fontFamily: {
       'montserrat': ['Montserrat'],
