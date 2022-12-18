@@ -1,12 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Header from '../components/header'
 import NavBar from '../components/navbar'
-import styles from '../styles/Home.module.css'
+import Footer from '../components/footer/index'
 
 export default function Home() {
   return <>
     <NavBar />
     <Header />
+    <Footer />
   </>
 }

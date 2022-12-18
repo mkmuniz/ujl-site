@@ -12,6 +12,7 @@ module.exports = {
     fontFamily: {
       'montserrat': ['Montserrat'],
       'league': ['League Spartan'],
+      'josefin': ['Josefin Slab'],
     },
     colors: {
       'standard': '#FFC700',
