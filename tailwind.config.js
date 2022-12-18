@@ -8,6 +8,7 @@ module.exports = {
     backgroundImage: {
       'header': "url('/img/header.png')",
       'logo': "url('/img/logo.svg')",
+      'logo-completo': "url('/img/ujl.png)",
     },
     fontFamily: {
       'montserrat': ['Montserrat'],
