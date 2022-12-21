@@ -33,33 +33,74 @@ const Footer = () => {
                     <Image src="/img/ujl.png" alt="ujl" width={200} height={250} />
                     <p className="border-b border-[#FFC700] sm:w-56 w-28 font-josefin font-thin pb-2 pt-2">Faremos história!</p>
                     <div class="grid grid-cols-5 mt-5">
-                        <div><FaFacebook /></div>
-                        <div><FaTwitter /></div>
-                        <div><FaInstagram /></div>
-                        <div><FaTiktok /></div>
-                        <div><FaYoutube /></div>
+                        <div>
+                            <FaFacebook />
+                        </div>
+                        <div>
+                            <FaTwitter />
+                        </div>
+                        <div>
+                            <FaInstagram />
+                        </div>
+                        <div>
+                            <FaTiktok />
+                        </div>
+                        <div>
+                            <FaYoutube />
+                        </div>
                     </div>
                 </div>
                 <div className="col-start-4 col-end-8 h-20 mt-4 sm:mt-6 md:mt-10">
                     <div class="grid grid-cols-5 mt-5">
-                        <div className="border-l h-56 border-[#FFC700]">
-                            <ul className="pl-5">
+                        <div className="border-l h-56 border-[#FFC700] col-start-1 col-end-3">
+                            <span className="text-2xl pl-5">
+                                <b>
+                                    INSTITUCIONAL
+                                </b>
+                            </span>
+                            <ul className="pl-5 mt-5">
+                                <li className="mb-4">
+                                    <span className="font-thin">
+                                        Quem somos
+                                    </span>
+                                </li>
+                                <li className="mb-4">
+                                    <span className="font-thin">
+                                        Valores
+                                    </span>
+                                </li>
+                                <li className="mb-4">
+                                    <span className="font-thin">
+                                        Lideranças
+                                    </span>
+                                </li>
                                 <li>
-                                    <span className="text-2xl">
-                                        <b>
-                                            INSTITUCIONAL
-                                        </b>
+                                    <span className="font-thin">
+                                        Bancadas
                                     </span>
                                 </li>
                             </ul>
                         </div>
-                        <div className="ml-24">
-                            <ul className="">
-                                <li>
-                                    <span className="text-2xl">
-                                        <b>
-                                            +UJL
-                                        </b>
+                        <div className="col-start-4 col-end-5">
+                            <span className="text-2xl">
+                                <b>
+                                    +UJL
+                                </b>
+                            </span>
+                            <ul className="mt-5">
+                                <li className="mb-4">
+                                    <span className="font-thin">
+                                        Blog
+                                    </span>
+                                </li>
+                                <li className="mb-4">
+                                    <span className="font-thin">
+                                        Podcast
+                                    </span>
+                                </li>
+                                <li className="mb-4">
+                                    <span className="font-thin">
+                                        Newsletter
                                     </span>
                                 </li>
                             </ul>
