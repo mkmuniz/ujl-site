@@ -1,18 +1,27 @@
-
+import React from 'react';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
+import CarouselTablet from './carousels/tablet';
+import CarouselDesktop from './carousels/desktop';
+import CarouselMobile from './carousels/mobile';
 
 const About = () => {
     return <>
-        <div className="text-center">
+        <div className="text-center mt-6">
             <span className="text-5xl text-standard items-center">
                 <b>
                     QUEM SOMOS
                 </b>
             </span>
-            <div className="grid grid-cols-12 text-left">
-                <div className="col-start-1 col-end-6">
-
+            <div className="grid place-items-center grid-cols-12 text-left">
+                <div className="sm:col-start-1 sm:col-end-6 sm:block hidden">
+                    <div className="container mx-auto">
+                        <div className="lg:ml-36 md:ml-12 flex justify-center w-full h-full py-24 sm:py-8 px-4">
+                            <CarouselMobile />
+                        </div>
+                    </div>
                 </div>
-                <div className="col-start-7 col-end-13 bg-red">
+                <div className="sm:text-left text-center sm:col-start-7 sm:col-end-13 col-start-1 col-end-13 mr-6 ml-6 mb-12 bg-red md:w-3/4 w-3/5 mt-0">
                     <p className="mt-2">
                         A UJL, União, Juventude e Liberdade,
                         é uma união de jovens dispostos a discutir os problemas enfrentados por estudantes secundaristas e universitários brasileiros,
@@ -29,8 +38,8 @@ const About = () => {
                         além de parcerias fechadas com diversas instituições em mais de 5 países diferentes.
                     </p>
                     <p className="mt-2">
-                        Estamos apenas começando, 
-                        se você quer ser um agente de mudança e defender a liberdade na sua universidade, 
+                        Estamos apenas começando,
+                        se você quer ser um agente de mudança e defender a liberdade na sua universidade,
                         vem conosco fazer história
                     </p>
                 </div>
