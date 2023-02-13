@@ -1,13 +1,10 @@
 import React from 'react';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import CarouselTablet from './carousels/tablet';
-import CarouselDesktop from './carousels/desktop';
 import CarouselMobile from './carousels/mobile';
 
 const About = () => {
     return <>
-        <div className="text-center mt-6">
+        <div className="text-center mt-6" id='quemSomos'>
             <span className="text-5xl text-standard items-center">
                 <b>
                     QUEM SOMOS
@@ -16,12 +13,12 @@ const About = () => {
             <div className="grid place-items-center grid-cols-12 text-left">
                 <div className="sm:col-start-1 sm:col-end-6 sm:block hidden">
                     <div className="container mx-auto">
-                        <div className="lg:ml-36 md:ml-12 flex justify-center w-full h-full py-24 sm:py-8 px-4">
+                        <div className="lg:ml-36 md:ml-12 sm:ml-6 flex justify-center w-full h-full py-24 sm:py-8 px-4">
                             <CarouselMobile />
                         </div>
                     </div>
                 </div>
-                <div className="sm:text-left text-center sm:col-start-7 sm:col-end-13 col-start-1 col-end-13 mr-6 ml-6 mb-12 bg-red md:w-3/4 w-3/5 mt-0">
+                <div className="sm:text-left text-center sm:col-start-7 sm:col-end-13 col-start-1 col-end-13 mr-6 ml-6 mb-12 bg-red sm:w-3/4 w-3/5 mt-0">
                     <p className="mt-2">
                         A UJL, União, Juventude e Liberdade,
                         é uma união de jovens dispostos a discutir os problemas enfrentados por estudantes secundaristas e universitários brasileiros,

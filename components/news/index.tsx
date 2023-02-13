@@ -146,14 +146,14 @@ export default function News() {
                                         <div className="aspect-w-16 aspect-h-9">
                                             <img
                                                 className="object-cover shadow-md hover:shadow-xl rounded-lg"
-                                                src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=3H1AJd0Pae&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                                                src="/img/nycolas.png"
                                                 alt=""
                                             />
                                         </div>
                                         <div className="px-4 py-2">
                                             <div className="text-lg leading-6 font-medium space-y-1">
                                                 <h3 className="font-bold text-black sm:text-3xl text-xl mb-2">
-                                                    TECNYC NA INVASÃO NO PLANALTO?
+                                                    TECNYC NA INVASÃO DO PLANALTO?
                                                 </h3>
                                             </div>
                                             <div className="text-lg">

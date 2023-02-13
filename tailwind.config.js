@@ -6,13 +6,14 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      'header': "url('/img/header-6.png')",
+      'header': "url('/img/header-1.png')",
       'logo': "url('/img/logo.svg')",
       'logo-completo': "url('/img/ujl.png)",
     },
     screens: {
       'mobile-3': '330px',
       'mobile-2': '400px',
+      'mobile-footer': '460px',
       'mobile': '530px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

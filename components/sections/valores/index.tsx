@@ -3,39 +3,59 @@ import Image from "next/image";
 
 const Valores = () => {
     return <>
-        <div className="grid place-items-center bg-standard h-4/5">
+        <div className="grid place-items-center bg-standard h-4/5" id="valores">
             <div className="text-center lg:w-2/6 md:w-3/6 sm:w-4/6 w-5/6 h-32 bg-black rounded-md mt-4">
                 <h3 className="text-4xl text-standard place-items-center mt-4">
-                    <strong className="mt-9 text-standard sm:text-2xl text-xl">
+                    <strong className="mt-9 text-standard sm:text-4xl text-xl">
                         NO QUE
                         <br />
                         ACREDITAMOS
                     </strong>
                 </h3>
             </div>
-            <div className="grid place-items-center">
-                <div className="grid grid-cols-3 place-items-center flex text-black">
-                    <div className="text-center place-items-center">
-                        <Image src="/img/ideias.png" alt="valores" width={100} height={125} />
-                        <strong>RACIONALISMO</strong>
+            <div>
+                <div className="grid grid-cols-3 text-black lg:gap-56 md:gap-36 sm:gap-24 mobile:gap-16 mobile-2:gap-12 mobile-3:gap-8 gap-4 text-center place-items-center">
+                    <div>
+                        <Image src="/img/ideias.png" alt="valores" className="mobile-3:w-1/7 mobile-2:w-2/7 mobile:3/7 w-1/7" width={100} height={125} />
+                        <p>
+                            <strong>
+                                RACIONALISMO
+                            </strong>
+                        </p>
                     </div>
-                    <div className="text-center place-items-center lg:ml-56 lg:mr-56 md:ml-32 md:mr-32 sm:mr-16 sm:ml-16 ml-8 mr-8">
-                        <Image src="/img/ideias.png" alt="valores" width={100} height={125} />
-                        <strong>LIBERDADE</strong>
+                    <div>
+                        <Image src="/img/ideias.png" alt="valores" className="mobile-3:w-1/7 mobile-2:w-2/7 mobile:3/7 w-1/7" width={100} height={125} />
+                        <p>
+                            <strong>
+                                LIBERDADE
+                            </strong>
+                        </p>
                     </div>
-                    <div className="text-center place-items-center">
-                        <Image src="/img/ideias.png" alt="valores" width={100} height={125} />
-                        <strong>RESPEITO</strong>
+                    <div>
+                        <Image src="/img/ideias.png" alt="valores" className="mobile-3:w-1/7 mobile-2:w-2/7 mobile:3/7 w-1/7" width={100} height={125} />
+                        <p>
+                            <strong>
+                                RESPEITO
+                            </strong>
+                        </p>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 flex text-black mb-12">
-                    <div className="place-items-center lg:mr-32 ml-6">
-                        <Image src="/img/ideias.png" alt="valores" width={100} height={125} />
-                        <strong>JUVENTUDE</strong>
+                <div className="grid grid-cols-2 text-black place-items-center text-center">
+                    <div className="place-items-center">
+                        <Image src="/img/ideias.png" alt="valores" className="mobile-3:w-1/7 mobile-2:w-2/7 mobile:3/7" width={100} height={125} />
+                        <p>
+                            <strong>
+                                JUVENTUDE
+                            </strong>
+                        </p>
                     </div>
-                    <div className="place-items-center lg:ml-32 md:ml-24 sm:ml-12">
-                        <Image src="/img/ideias.png" alt="valores" width={100} height={125} />
-                        <strong>RESPONSABILIDADE</strong>
+                    <div className="place-items-center">
+                        <Image src="/img/ideias.png" alt="valores" className="mobile-3:w-1/7 mobile-2:w-2/7 mobile:3/7" width={100} height={125} />
+                        <p>
+                            <strong>
+                                RESPONSABILIDADE
+                            </strong>
+                        </p>
                     </div>
                 </div>
             </div>
