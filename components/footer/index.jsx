@@ -203,7 +203,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="w-screen mt-36 mb-0 grid place-items-center text-center">
+            <div className="mt-36 mb-0 grid place-items-center text-center">
                 <p>Desenvolvido por AgentesDev - UJL © 2023 União Juventude e Liberdade</p>
             </div>
         </footer>
